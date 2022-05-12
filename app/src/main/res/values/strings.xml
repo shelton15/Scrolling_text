@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_text">Article Text  CEF474 - SOFTWARE VERIFICATION AND VALIDATION TECHNIQUES
+
+MATRICULATION NUMBER : FE19A042
+NAME : FUN MUGGER NEH
+        www.rockument.com
+
+TEST Number 1
+
+Succinctly differentiate between Verification and Validation. Emphasize on their objectives.
+
+Verification is a process that determines the quality of a software. Verification includes all the activities associated with producing high quality software, i.e. inspection, testing, design analysis, specification analysis.
+Verification is a relatively objective process, in that if the various processes and documents are expressed precisely enough, no subjective judgment should be needed in order to verify software.
+
+Validation is a process in which the requirements of a customer are actually met by the software functionality. Validation is done at the end of the development process and takes place after verifications are completed.
+
+Validation is the process of checking whether the specification captures the customer’s requirements while verification is the process of checking that the software meets specifications.
+
+Verification includes all the activities associated with producing high quality software. It is a relatively objective process in that no subjective judgment should be needed to verify the software while validation is an extremely subjective process. It involves making subjective assessments of how well the system addresses real world needs. Validation includes activities such as requirements modeling, prototyping and user evaluation.
+
+Clearly and briefly describe the verification and validation processes.
+
+Verification Process:
+Verification Process Steps
+The three (3) steps in the verification process include:
+
+Step 1: Planning
+Step 2: Execution
+Step 3: Reporting
+
+Step 1: Verification Planning
+Verification planning is performed at each level of the system under development. The following activities describe the development of a verification plan:Verification Method and Level Assignments: Defines the relationships between the specified requirements method and level of verification. This activity typically yields a Verification Cross Reference Matrix for each level of the architecture and serves as the basis for the definition of the verification tasks. The level of verification is assigned consistent with the level of the requirement (e.g., system-level, subsystem level, etc.). Verification activities include Analysis, Inspection, Demonstration, and Test. (see below) Choice of verification methods must be considered an area of potential risk. The use of inappropriate methods can lead to inaccurate verification.
+
+Verification Task Definition: Defines all verification tasks with each task addressing one or more requirements. The ability to define good verification tasks requires the test engineer to have a sound understanding of how the system is expected to be used and its associated environments. An essential tool for the test engineer is to utilize the integrated architecture that consists of the requirements, functional and physical architectures. The functional architecture is used to support functional and performance test development and in combination with the physical architecture, a family of verification tasks is defined that will verify the functional, performance, and constraint requirements
+.
+Verification Configuration Definition: Defines the technical configuration, resources, including people, and environments needed to support a given verification task. This may also include hardware or software to simulate the external interfaces to the system to support a given test.
+Verification Scheduling: Defines the schedule for the performance of the verification tasks and determines which verification tasks are in sequence or in parallel and the enabling resources required for the execution of the verification tasks.
+
+Step 2: Verification Execution
+The performance of a given verification task with supporting resources. The verification task results, whether from a test, analysis, inspection or simulation, are documented for compliance or non-compliance with data supporting the conclusion.
+
+Step 3: Verification Reporting
+Reports the compiled results of the executed verification plan and verifies the materials employed in system solutions can be used in a safe and environmentally compliant manner.
+
+Validation Process :
+
+The software validation process verifies whether the product meets all business requirements; it is performed after the development of a particular software product. This process has to be performed very carefully as it checks how the software product performs in the real-time environment, and it meets the needs of stakeholders. The testers need to check whether the results of the software comply with the SRS.
+There are well-organized steps to be followed while executing this process. They are explained as follows:
+
+The first step in developing every software product is collecting the requirements and functionalities to appear in the stakeholders’ software product. In the validation process, the conditions are the only means to verify whether the software works accordingly.
+Once you collect the requirements, plan for the validation tests for the software product. Later, approve this prepared plan form the clients.
+After the client approves your plan, start designing test cases, test methods, and strategies. Again verify all test cases form users.
+Once everything is done,  you can execute each test case, send the outcome of each test case to the client.
+When the client approves all test cases’ outcomes, the software product then undergoes User Acceptance Testing (UAT).
+Once the UAT is performed, the software product is ready to enter into the market.
+These steps have to be executed very keenly to develop the right and good quality software product.
+
+
+Name and describe four verification techniques
+
+i) Inspection
+Typical techniques include desk checking, breakthroughs, software reviews, technical reviews, and formal inspections (e.g., Fagin approach).
+ii) Analysis
+Mathematical verification of the test item, which can include estimation of execution times and estimation of system resources.
+iii) Testing
+Also known as "white box" or "logic driven" testing. Given input values are traced through the test item to assure that they generate the expected output values, with the expected intermediate values along the way. Typical techniques include statement coverage, condition coverage, and decision coverage.
+iv) Demonstration
+Also known as "black box" or "input/output driven" testing. Given input values are entered, and the resulting output values are compared against the expected output values. Typical techniques include error guessing, boundary-value analysis, and equivalence partitioning.
+Explanation
+The four methods for verification can be used at any of the levels although some work better than others for a given level of verification.
+As an example, the most effective way to find anomalies at the component level is inspection. On the other hand, inspection is not applicable at the system level (you don\'t look at the details of code when performing system level testing).
+A logical approach to testing is to utilize techniques and methods that are most effective at a given level.
+Component level verification can easily get very expensive.
+Companies need to avoid making statements like "all paths and branches will be executed during component testing."
+These statements make for a very expensive test program, as all code developed is required to have one of the most labor-intensive type of testing performed on it.
+To minimize the costs of component verification, the V&amp;V group develops rules for determining the type of verification method(s) needed for each of the software functions.
+As an example, very low complexity software function, which is not on the safety critical list, may only need informal inspection (although) performed.
+Other complicated functions typically require white box testing since the functions become difficult to determine how they work.
+We recommend performing inspections before doing the white box testing for a given module as it is less expensive to find the errors earlier in the development.
+The resulting V&amp;V effort has become a significant part of the software development effort for a medical device.
+One of the key pieces to demonstrate that the system is implemented completely is a Requirements Traceability Matrix (RTM), which documents each of the requirements traced to design items, code, unit, integration and system test cases.
+The RTM is an easy and effective way for documenting - what are the requirements, where are they implemented, and how have you tested them.
+
+Name and describe two validation techniques
+
+
+1. Black Box Testing:
+Black box testing is one of the types of testing involved in the software validation process. Another name for black-box testing is Behavioral Testing. If testers perform testing on a particular software product using this technique, they can identify interface errors, bugs, or defects in the database, initialisation and termination errors, and performance errors. The tester is not aware of the software product’s internal structure and implementation.
+As the black box testing’s name is behaviour testing, it verifies the overall performance and identifies the software product’s internal structure. The black box testing is compatible to work with every stage of software testing, like unit testing, integration testing, system testing, and acceptance testing. The black box testing is executed using several techniques, like Decision Table Testing, Error Guessing, Use Case Testing, Domain Analysis, etc.
+
+2. White Box Testing:
+Another type of testing in the software validation process is White Box Testing. This type of testing is precisely the opposite of black-box testing. White Box Testing uses multiple names, like Open Box Testing, Clear Box Testing, Transparent Box Testing, Structural Testing, Code-based Testing, and Glass Box Testing. Unlike black-box testing, the tester is acquainted with the product’s internal structure and implementation in white box testing.
+As the white box testing is called transparent testing, the tester can see what happens inside the product during the testing. For software testing levels, like unit testing, integration testing, and regression testing, white box testing is applicable. But, in practice, testers apply this technique to the unit testing level.
+
+Testers should have knowledge of programming language and the internal structure of the software system. Glass-box testing uses multiple code coverage criteria, like Data Flow Testing, Branch Testing, Statement Coverage, Path Testing, etc
+
+Explain the following : Functional testing, Non-functional testing. Explain how they are used to fulfill V&amp;V.
+
+What is Functional Testing?
+Functional testing is a type of testing which verifies that each function of the software application operates in conformance with the requirement specification. This testing mainly involves black box testing, and it is not concerned about the source code of the application.
+
+Every functionality of the system is tested by providing appropriate input, verifying the output and comparing the actual results with the expected results. This testing involves checking of User Interface, APIs, Database, security, client/ server applications and functionality of the Application Under Test. The testing can be done either manually or using automation
+
+What is Non-Functional Testing?
+Non-functional testing is a type of testing to check non-functional aspects (performance, usability, reliability, etc.) of a software application. It is explicitly designed to test the readiness of a system as per nonfunctional parameters which are never addressed by functional testing.
+
+A good example of non-functional test would be to check how many people can simultaneously login into a software.
+
+Non-functional testing is equally important as functional testing and affects client satisfaction.
+
+Functional testing helps in the validation process while non-functional testing helps in the verification process.
+
+Succinctly differentiate between Testing and Debugging.
+
+
+Parameters
+Testing
+Debugging
+Basics
+It is the process using which we find errors and bugs.
+It is the process using which we correct the bugs that we found during the testing process.
+Code Failure
+We can identify the failure of any implemented code using this process.
+We use this process to provide the code failure with an absolution.
+Errors
+Errors get displayed in this process.
+Errors get deducted and dissolved in this process.
+Performer
+A tester performs testing on any given software or application.
+Either a developer or a programmer performs this step of debugging in an application or software.
+Design Knowledge
+One does not need any design knowledge to perform testing.
+Design knowledge is a prerequisite to debugging.
+Insiders and Outsiders
+Both- insiders and outsiders can perform testing.
+Only an insider can perform debugging. No outsider can perform it on the intended software.
+Mode of Operation
+The process of testing can be both- automated as well as manual.
+The process of debugging must always be manual since we are fixing the available errors and bugs. We cannot debug a system/ software/ application on auto-pilot.
+Basics of Operation
+The process of testing is based on various levels of testing- system testing, integration testing, unit testing, etc.
+The process of debugging is based on various types of bugs present in a system.
+SDLC
+It is a stage of SDLC (Software Development Life Cycle).
+It’s not at all an aspect of the SDLC. It rather occurs as a consequence of the process of testing.
+Moment of Initiation
+This process can begin after we have completed writing the code.
+This process can begin after the execution of the test case and the identification of errors.
+Steps
+This process consists of both- validation as well as verification of the errors.
+This process seeks to match the available symptoms with the cause. Only then it leads to the correction of the errors.
+
+
+
+
+</string>
+</resources>
